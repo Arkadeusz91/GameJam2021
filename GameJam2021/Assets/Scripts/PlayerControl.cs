@@ -55,6 +55,23 @@ public class PlayerControl : MonoBehaviour
                 transform.position += new Vector3(0, 2, 0);
                 this.enabled = false;
                 AddToGrid();
+                switch (checkCompleteLines())
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        Score_Counter.YourScore += 20;
+                        break;
+                    case 2:
+                        Score_Counter.YourScore += 50;
+                        break;
+                    case 3:
+                        Score_Counter.YourScore += 80;
+                        break;
+                    default:
+                        Score_Counter.YourScore += 120;
+						break;
+                }
                 FindObjectOfType<Generator>().generate();
             }
                 
@@ -70,7 +87,23 @@ public class PlayerControl : MonoBehaviour
                 transform.position += new Vector3(0, 2, 0);
                 AddToGrid();
                 this.enabled = false;
-                checkCompleteLines();
+                switch (checkCompleteLines())
+                {
+                    case 0:
+                        break;
+                    case 1:
+                        Score_Counter.YourScore += 20;
+                        break;
+                    case 2:
+                        Score_Counter.YourScore += 50;
+                        break;
+                    case 3:
+                        Score_Counter.YourScore += 80;
+                        break;
+                    default:
+                        Score_Counter.YourScore += 120;
+						break;
+                }
                 FindObjectOfType<Generator>().generate();
             }
                     
@@ -108,16 +141,19 @@ public class PlayerControl : MonoBehaviour
         return true;
     }
 
-    void checkCompleteLines()
+    int checkCompleteLines()
     {
+        int completedLines = 0;
         for (int i = 0; i < StageHeight; i+=2)
         {
             if (lineComplete(i))
             {
+                completedLines += 1;
                 deleteLine(i);
                 dropBlocks(i);
             }
         }
+		return completedLines;
     }
     
     bool lineComplete(int i)
