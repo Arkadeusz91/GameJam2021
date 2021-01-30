@@ -1,0 +1,5 @@
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\Temp\Bin\Debug\DocCodeExamples.dll
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\Temp\Bin\Debug\DocCodeExamples.pdb
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\DocCodeExamples.csproj.CoreCompileInputs.cache
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\DocCodeExamples.dll
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\DocCodeExamples.pdb

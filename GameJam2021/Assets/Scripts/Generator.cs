@@ -25,7 +25,7 @@ public class Generator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        disabledObjectId = Random.Range(0, tetriminoArray.Length - 1);
+        disabledObjectId = Random.Range(0, tetriminoArray.Length);
         disabledObject = Instantiate(tetriminoArray[disabledObjectId]);
         disabledObject.transform.position += new Vector3(0, -20, 0);
     }
@@ -38,7 +38,7 @@ public class Generator : MonoBehaviour
         {
             lastLevel = currentLevel;
             Destroy(disabledObject);
-            disabledObjectId = Random.Range(0, tetriminoArray.Length - 1);
+            disabledObjectId = Random.Range(0, tetriminoArray.Length);
             disabledObject = Instantiate(tetriminoArray[disabledObjectId]);
             disabledObject.transform.position += new Vector3(0, -20, 0);
             disableInterface();
@@ -51,7 +51,7 @@ public class Generator : MonoBehaviour
 
     public void generate()
     {
-        int random = Random.Range(0, tetriminoArray.Length - 1);
+        int random = Random.Range(0, tetriminoArray.Length);
         while (true)
         {
             if (!random.Equals(disabledObjectId))
@@ -59,7 +59,7 @@ public class Generator : MonoBehaviour
                 break;
             }
 
-            random = Random.Range(0, tetriminoArray.Length - 1);
+            random = Random.Range(0, tetriminoArray.Length);
         }
         if (first)
         {
@@ -76,7 +76,7 @@ public class Generator : MonoBehaviour
                 break;
             }
 
-            random = Random.Range(0, tetriminoArray.Length - 1);
+            random = Random.Range(0, tetriminoArray.Length);
         }
         nextTetrimino = Instantiate(tetriminoArray[random]);
         isNothingControlled = false;

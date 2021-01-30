@@ -1,0 +1,3 @@
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\UnityEngine.UI.Player.csprojAssemblyReference.cache
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\UnityEngine.UI.Player.csproj.CoreCompileInputs.cache
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\UnityEngine.UI.dll

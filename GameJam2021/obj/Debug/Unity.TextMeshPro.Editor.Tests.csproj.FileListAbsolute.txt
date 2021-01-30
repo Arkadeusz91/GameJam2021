@@ -1,0 +1,5 @@
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\Temp\Bin\Debug\Unity.TextMeshPro.Editor.Tests.dll
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\Temp\Bin\Debug\Unity.TextMeshPro.Editor.Tests.pdb
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\Unity.TextMeshPro.Editor.Tests.csproj.CoreCompileInputs.cache
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\Unity.TextMeshPro.Editor.Tests.dll
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\Unity.TextMeshPro.Editor.Tests.pdb

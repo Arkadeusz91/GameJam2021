@@ -1,0 +1,5 @@
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\Temp\Bin\Debug\UnityEditor.UI.EditorTests.dll
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\Temp\Bin\Debug\UnityEditor.UI.EditorTests.pdb
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\UnityEditor.UI.EditorTests.csproj.CoreCompileInputs.cache
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\UnityEditor.UI.EditorTests.dll
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\UnityEditor.UI.EditorTests.pdb

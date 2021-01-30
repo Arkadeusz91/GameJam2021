@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -99,6 +100,11 @@ public class PlayerControl : MonoBehaviour
         {
             int locationX = Mathf.RoundToInt(children.transform.position.x);
             int locationY = Mathf.RoundToInt(children.transform.position.y);
+
+            if (locationY >= StageHeight)
+            {
+                SceneManager.LoadSceneAsync("GameOver",LoadSceneMode.Single);
+            }
 
             grid[locationX, locationY] = children;
         }

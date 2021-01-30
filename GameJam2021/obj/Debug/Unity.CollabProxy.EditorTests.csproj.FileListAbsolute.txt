@@ -1,0 +1,5 @@
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\Temp\Bin\Debug\Unity.CollabProxy.EditorTests.dll
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\Temp\Bin\Debug\Unity.CollabProxy.EditorTests.pdb
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\Unity.CollabProxy.EditorTests.csproj.CoreCompileInputs.cache
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\Unity.CollabProxy.EditorTests.dll
+D:\Dev\GameJam2021\GameJam\GameJam2021\GameJam2021\obj\Debug\Unity.CollabProxy.EditorTests.pdb
