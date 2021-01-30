@@ -69,6 +69,15 @@ public class Generator : MonoBehaviour
         nextTetrimino.transform.position=new Vector3(10, 32, 0);
         nextTetrimino.AddComponent<PlayerControl>();
         random = Random.Range(0, tetriminoArray.Length - 1);
+        while (true)
+        {
+            if (!random.Equals(disabledObjectId))
+            {
+                break;
+            }
+
+            random = Random.Range(0, tetriminoArray.Length - 1);
+        }
         nextTetrimino = Instantiate(tetriminoArray[random]);
         isNothingControlled = false;
     }
