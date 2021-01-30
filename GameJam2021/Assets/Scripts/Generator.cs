@@ -52,9 +52,14 @@ public class Generator : MonoBehaviour
     public void generate()
     {
         int random = Random.Range(0, tetriminoArray.Length - 1);
-        while (random == disabledObjectId)
+        while (true)
         {
-            random = Random.Range(0, tetriminoArray.Length - 1); 
+            if (!random.Equals(disabledObjectId))
+            {
+                break;
+            }
+
+            random = Random.Range(0, tetriminoArray.Length - 1);
         }
         if (first)
         {
@@ -88,4 +93,5 @@ public class Generator : MonoBehaviour
 
         
     }
+    
 }

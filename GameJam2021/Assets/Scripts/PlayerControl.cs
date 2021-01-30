@@ -14,7 +14,7 @@ public class PlayerControl : MonoBehaviour
     
     public static int StageWidth = 20;
     public static int StageHeight = 40;
-    private static Transform[,] grid = new Transform[StageWidth, StageHeight];
+    public static Transform[,] grid = new Transform[StageWidth, StageHeight];
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +70,7 @@ public class PlayerControl : MonoBehaviour
                 transform.position += new Vector3(0, 2, 0);
                 AddToGrid();
                 this.enabled = false;
+                checkCompleteLines();
                 FindObjectOfType<Generator>().generate();
             }
                     
@@ -105,6 +106,57 @@ public class PlayerControl : MonoBehaviour
         }
 
         return true;
+    }
+
+    void checkCompleteLines()
+    {
+        for (int i = 0; i < StageHeight; i+=2)
+        {
+            if (lineComplete(i))
+            {
+                deleteLine(i);
+                dropBlocks(i);
+            }
+        }
+    }
+    
+    bool lineComplete(int i)
+    {
+        for (int j = 0; j < StageWidth; j += 2)
+        {
+            Debug.Log(j+", "+i+", ");
+            if (grid[j,i] == null)
+            {
+                return false;
+            }
+        }
+    
+        return true;
+    }
+
+    void deleteLine(int i)
+    {
+        for (int j = 0; j < StageWidth; j += 2)
+        {
+            Destroy(grid[j,i].gameObject);
+            grid[j,i] = null;
+        }
+    }
+
+    void dropBlocks(int i)
+    {
+        for (int j = i; j < StageHeight; j+=2)
+        {
+            for (int k = 0; k < StageWidth; k+=2)
+            {
+                if (grid[k, j] != null)
+                {
+                    grid[k, j-2] = grid[k, j];
+                    grid[k, j] = null;
+                    grid[k, j - 2].transform.position -= new Vector3(0, 2, 0);
+                }
+            }
+        }
     }
 
 }
