@@ -1,0 +1,320 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.0b4 (6d90c0720bd4) revision 7180480'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.746; Version 2004; 64bit' Language: 'pl' Physical Memory: 16189 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0b4\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ProjektyGier/GameJam 2021/GameJam2021/GameJam2021
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62631
+Successfully changed project path to: D:/ProjektyGier/GameJam 2021/GameJam2021/GameJam2021
+D:/ProjektyGier/GameJam 2021/GameJam2021/GameJam2021
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 86.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0b4 (6d90c0720bd4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ProjektyGier/GameJam 2021/GameJam2021/GameJam2021/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003084 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 94.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.341 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003847 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2649 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.8 MB.
+System memory in use after: 230.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3099.
+Total: 3.003600 ms (FindLiveObjects: 0.568900 ms CreateObjectMapping: 0.174200 ms MarkObjects: 2.166500 ms  DeleteObjects: 0.092100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Score_Counter.cs
+  artifactKey: Guid(6efd0316213b10346be6b571d2f2c0f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Score_Counter.cs using Guid(6efd0316213b10346be6b571d2f2c0f0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/cd8ecfbd409f648468641ae08ba10148.asset.1.index for Assets/Scripts/Score_Counter.cs with Types
+ -> (artifact id: '38be336213fcdfcdcca8ae4a908a8d38') in 0.142807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024912 seconds.
+  path: Assets/Prefabs/TetriminoL.prefab
+  artifactKey: Guid(a175036ebfd439f4cac7c303975539e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/TetriminoL.prefab using Guid(a175036ebfd439f4cac7c303975539e2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/f9a624dd91d43164eb1898d6b316b8f0.asset.1.index for Assets/Prefabs/TetriminoL.prefab with Types
+ -> (artifact id: 'bbb7ad0356666fe824555b4d3040f3ae') in 0.011924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017817 seconds.
+  path: Assets/Backgrounds/Menu_Background.bmp
+  artifactKey: Guid(788a508935d9a294c8a3f78224248ede) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Backgrounds/Menu_Background.bmp using Guid(788a508935d9a294c8a3f78224248ede) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/cb9968f8191fe4e4b9954e87c5e67a95.asset.1.index for Assets/Backgrounds/Menu_Background.bmp with Types
+ -> (artifact id: '905adc6b283934fd67a6cf7ca0082856') in 0.019652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016588 seconds.
+  path: Assets/Prefabs/Stage.prefab
+  artifactKey: Guid(dc02aeb14cad87449b141551cff14fe9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/Stage.prefab using Guid(dc02aeb14cad87449b141551cff14fe9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/6eaad0dfb909fb443a752c73a23afef3.asset.1.index for Assets/Prefabs/Stage.prefab with Types
+ -> (artifact id: '9db5ad59293d4c2a9897186f806b99c9') in 0.007972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016980 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(92324a6e0a2c47d46aea7635c93a8269) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes using Guid(92324a6e0a2c47d46aea7635c93a8269) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/a5f1a5d600ca36c4eaded1d56942e32f.asset.1.index for Assets/Scenes with Types
+ -> (artifact id: 'f46e35dc2c120f889b1b93c5704c4710') in 0.009083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017182 seconds.
+  path: Assets/Prefabs/TetriminoS.prefab
+  artifactKey: Guid(31f6dfc0e776e9745b723b67f855b6e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/TetriminoS.prefab using Guid(31f6dfc0e776e9745b723b67f855b6e6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/be699dce725064c47b7be858ea690a79.asset.1.index for Assets/Prefabs/TetriminoS.prefab with Types
+ -> (artifact id: '3e8fb22e8886f4b9cec6b0adc6ed816c') in 0.007198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017658 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(5df8a625d872d6f4ca46bbf0ff11ba90) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs using Guid(5df8a625d872d6f4ca46bbf0ff11ba90) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/0b1b1f25cd318f64ba7556ec533ad929.asset.1.index for Assets/Prefabs with Types
+ -> (artifact id: '392296e097325c291f48c3f9dfc22d3b') in 0.007962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019040 seconds.
+  path: Assets/Scripts/Level_Script.cs
+  artifactKey: Guid(702a378d259b32f4d8322002de374e13) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Level_Script.cs using Guid(702a378d259b32f4d8322002de374e13) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/2265b53f838bbb64d8fda52a05778b5c.asset.1.index for Assets/Scripts/Level_Script.cs with Types
+ -> (artifact id: '7818aafc2eb5097c83f073f0e88cb914') in 0.009671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018702 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/8dcd27bd9bfe6d545b1aa9a9f972377e.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+ -> (artifact id: '43ab6a2e34a792ec27df6ae0f5e9f5e9') in 0.009485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020827 seconds.
+  path: Assets/Prefabs/TetriminoJ.prefab
+  artifactKey: Guid(4616bae5be8d39c488b54d7561aaafca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/TetriminoJ.prefab using Guid(4616bae5be8d39c488b54d7561aaafca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/e4ff50ef814da6747bbb64159cf494da.asset.1.index for Assets/Prefabs/TetriminoJ.prefab with Types
+ -> (artifact id: '5dfbaec21673327109dc3390e8bb5099') in 0.008750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017464 seconds.
+  path: Assets/Prefabs/TetriminoT.prefab
+  artifactKey: Guid(74a9bd2f79e9869419fec13e8ecc8153) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/TetriminoT.prefab using Guid(74a9bd2f79e9869419fec13e8ecc8153) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/366a4b36f0cfc7244b62d7f4b1f99e70.asset.1.index for Assets/Prefabs/TetriminoT.prefab with Types
+ -> (artifact id: '64b54871c78e7e5377cb2b00bbc51e02') in 0.007543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018033 seconds.
+  path: Assets/Scripts/Menu_Script.cs
+  artifactKey: Guid(7cf0ed4b0cf10d24eaa58a1f0c74b76e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Menu_Script.cs using Guid(7cf0ed4b0cf10d24eaa58a1f0c74b76e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/153bb6e1adbe15e40b0ffe3a095a1dbb.asset.1.index for Assets/Scripts/Menu_Script.cs with Types
+ -> (artifact id: 'b75be1791da4c8026eb05b93a69df36f') in 0.008098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018208 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2a9398f0e73537d4eb3638182887944f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Menu.unity using Guid(2a9398f0e73537d4eb3638182887944f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/e4dce2be07aa1514db35e5fe2e9c8d13.asset.1.index for Assets/Scenes/Menu.unity with Types
+ -> (artifact id: '04a2bfc91b4eecc86085ce14292f8b80') in 0.007804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017439 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/7c51bd944426de04cb86fc3436408869.asset.1.index for Assets/Scripts/PlayerControl.cs with Types
+ -> (artifact id: '5ce48ce2d77307c869ddf3e56ef4c761') in 0.007915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016977 seconds.
+  path: Assets/Prefabs/TetriminoZ.prefab
+  artifactKey: Guid(02e4a6122bc15564ca4cb14602917dd0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/TetriminoZ.prefab using Guid(02e4a6122bc15564ca4cb14602917dd0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/9d0a69b996bf6bd46a1b41f3bb8fe1d6.asset.1.index for Assets/Prefabs/TetriminoZ.prefab with Types
+ -> (artifact id: '52531ae7174635483211182a63c4ddae') in 0.008445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016778 seconds.
+  path: Assets/Prefabs/TetriminoI.prefab
+  artifactKey: Guid(a215e00500266b248bb2fd110448bfef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/TetriminoI.prefab using Guid(a215e00500266b248bb2fd110448bfef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/86315358e0fa0b84bbc16a280dcc88fd.asset.1.index for Assets/Prefabs/TetriminoI.prefab with Types
+ -> (artifact id: 'b1fdc619fd4fff8a478f56918d631e4d') in 0.008578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018205 seconds.
+  path: Assets/Prefabs/TetriminoO.prefab
+  artifactKey: Guid(61348db828c098440b4c4157d99ca1fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Prefabs/TetriminoO.prefab using Guid(61348db828c098440b4c4157d99ca1fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/ddc59c609815e4a429abc37e22856bb9.asset.1.index for Assets/Prefabs/TetriminoO.prefab with Types
+ -> (artifact id: '30b885806762878b3d6ee81b8a15dbda') in 0.009512 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.3 MB.
+System memory in use after: 177.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3099.
+Total: 3.578800 ms (FindLiveObjects: 0.559800 ms CreateObjectMapping: 0.266300 ms MarkObjects: 2.678900 ms  DeleteObjects: 0.071200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 284.705277 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51fdfc92eec38be0c92434a1fd31a1d') in 0.004693 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004184 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.456 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.8 MB.
+System memory in use after: 230.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3101.
+Total: 3.721100 ms (FindLiveObjects: 0.599100 ms CreateObjectMapping: 0.358800 ms MarkObjects: 2.678400 ms  DeleteObjects: 0.082100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.158192 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9820886fa0c017fb5ef925f3220dac') in 0.011149 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.360 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.9 MB.
+System memory in use after: 230.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3103.
+Total: 3.950700 ms (FindLiveObjects: 0.701900 ms CreateObjectMapping: 0.373600 ms MarkObjects: 2.808600 ms  DeleteObjects: 0.064700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.150096 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2d781b01adcc0bbab16ef339124393') in 0.009016 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003135 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.378 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.9 MB.
+System memory in use after: 230.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3105.
+Total: 3.410500 ms (FindLiveObjects: 0.425900 ms CreateObjectMapping: 0.221600 ms MarkObjects: 2.690000 ms  DeleteObjects: 0.071100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.555425 seconds.
+  path: Assets/Scripts/PlayerControl.cs
+  artifactKey: Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerControl.cs using Guid(5ab905dafc605bf40ba1d8ea43423002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1be13d12287c73a1e8df8a707acf42d') in 0.010164 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 229.9 MB.
+System memory in use after: 230.1 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 3107.
+Total: 5.013100 ms (FindLiveObjects: 0.684400 ms CreateObjectMapping: 0.208900 ms MarkObjects: 3.989800 ms  DeleteObjects: 0.126900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
