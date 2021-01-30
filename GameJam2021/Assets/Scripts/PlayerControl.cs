@@ -101,7 +101,7 @@ public class PlayerControl : MonoBehaviour
             int locationX = Mathf.RoundToInt(children.transform.position.x);
             int locationY = Mathf.RoundToInt(children.transform.position.y);
 
-            if (locationY >= StageHeight)
+            if (locationY >= StageHeight-2)
             {
                 SceneManager.LoadSceneAsync("GameOver",LoadSceneMode.Single);
             }
@@ -149,7 +149,6 @@ public class PlayerControl : MonoBehaviour
     {
         for (int j = 0; j < StageWidth; j += 2)
         {
-            Debug.Log(j+", "+i+", ");
             if (grid[j,i] == null)
             {
                 return false;

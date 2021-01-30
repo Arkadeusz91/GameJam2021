@@ -871,7 +871,7 @@ MonoBehaviour:
   nextTetrimino: {fileID: 0}
   disabledObjectId: 0
   disabledObject: {fileID: 0}
-  lastLevel: 1
+  lastLevel: 30
 --- !u!4 &2099099172
 Transform:
   m_ObjectHideFlags: 0

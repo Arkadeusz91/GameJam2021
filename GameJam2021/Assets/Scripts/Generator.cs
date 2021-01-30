@@ -20,7 +20,7 @@ public class Generator : MonoBehaviour
 
     public GameObject disabledObject = null;
 
-    public int lastLevel = 1;
+    public int lastLevel = 30;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +33,7 @@ public class Generator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        int random = Random.Range(1, 4);
         int currentLevel = Level_Script.YourLevel;
         if (currentLevel > lastLevel)
         {
@@ -41,11 +42,11 @@ public class Generator : MonoBehaviour
             disabledObjectId = Random.Range(0, tetriminoArray.Length);
             disabledObject = Instantiate(tetriminoArray[disabledObjectId]);
             disabledObject.transform.position += new Vector3(0, -20, 0);
-            disableInterface();
+            disableInterface(random);
         }
         if (isNothingControlled)
         {
-            generate(); 
+            generate();
         }
     }
 
@@ -81,15 +82,16 @@ public class Generator : MonoBehaviour
         nextTetrimino = Instantiate(tetriminoArray[random]);
         isNothingControlled = false;
     }
+    
+    
 
-    public void disableInterface()
+    public void disableInterface(int id)
     {
         GameObject.Find("/Canvas/Score_Text").GetComponent<Text>().enabled=true;
         GameObject.Find("/Canvas/Level_Text").GetComponent<Text>().enabled=true;
         if (Level_Script.YourLevel >= 30)
         {
-            int random = Random.Range(1, 2);
-			switch (random)
+            switch (id)
         	{
           	  case 1:
           	      GameObject.Find("/Canvas/Score_Text").GetComponent<Text>().enabled = false;
@@ -97,7 +99,19 @@ public class Generator : MonoBehaviour
           	  case 2:
          	       GameObject.Find("/Canvas/Level_Text").GetComponent<Text>().enabled = false;
          	       break;
-       		}
+              case 3:
+                  // foreach (MeshRenderer renderer in nextTetrimino.GetComponentsInChildren<MeshRenderer>())
+                  // {
+                  //     renderer.enabled = false;
+                  // }
+                  // break;
+              case 4:
+                  foreach (MeshRenderer renderer in disabledObject.GetComponentsInChildren<MeshRenderer>())
+                  {
+                      renderer.enabled = false;
+                  }
+                  break;
+            }
         }
 
         
