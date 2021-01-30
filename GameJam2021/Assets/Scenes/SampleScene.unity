@@ -868,6 +868,7 @@ MonoBehaviour:
   - {fileID: 8608647468682226807, guid: 74a9bd2f79e9869419fec13e8ecc8153, type: 3}
   - {fileID: 8608647468682226807, guid: 02e4a6122bc15564ca4cb14602917dd0, type: 3}
   isNothingControlled: 1
+  nextTetrimino: {fileID: 0}
 --- !u!4 &2099099172
 Transform:
   m_ObjectHideFlags: 0

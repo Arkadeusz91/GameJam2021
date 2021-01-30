@@ -8,7 +8,7 @@ public class PlayerControl : MonoBehaviour
     public Vector3 rotationPoint;
     //zmienna potrzebna do odliczania czasu opadniecia klocka
     private float ItIsTime;
-    //czas z jakim bêdzie opada³ klocek
+    //czas z jakim bï¿½dzie opadaï¿½ klocek
     public float TimeToFall = 0.8f;
     //
     
@@ -55,6 +55,7 @@ public class PlayerControl : MonoBehaviour
                 transform.position += new Vector3(0, 2, 0);
                 this.enabled = false;
                 AddToGrid();
+                FindObjectOfType<Generator>().generate();
             }
                 
         }
