@@ -25,6 +25,23 @@ public class PlayerControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        switch (checkCompleteLines())
+        {
+            case 0:
+                break;
+            case 1:
+                Score_Counter.YourScore += 20;
+                break;
+            case 2:
+                Score_Counter.YourScore += 50;
+                break;
+            case 3:
+                Score_Counter.YourScore += 80;
+                break;
+            default:
+                Score_Counter.YourScore += 120;
+                break;
+        }
         if(Input.GetKeyDown(KeyCode.LeftArrow))
         {
             transform.position += new Vector3(-2, 0, 0);
@@ -55,23 +72,6 @@ public class PlayerControl : MonoBehaviour
                 transform.position += new Vector3(0, 2, 0);
                 this.enabled = false;
                 AddToGrid();
-                switch (checkCompleteLines())
-                {
-                    case 0:
-                        break;
-                    case 1:
-                        Score_Counter.YourScore += 20;
-                        break;
-                    case 2:
-                        Score_Counter.YourScore += 50;
-                        break;
-                    case 3:
-                        Score_Counter.YourScore += 80;
-                        break;
-                    default:
-                        Score_Counter.YourScore += 120;
-						break;
-                }
                 FindObjectOfType<Generator>().generate();
             }
                 
@@ -87,23 +87,6 @@ public class PlayerControl : MonoBehaviour
                 transform.position += new Vector3(0, 2, 0);
                 AddToGrid();
                 this.enabled = false;
-                switch (checkCompleteLines())
-                {
-                    case 0:
-                        break;
-                    case 1:
-                        Score_Counter.YourScore += 20;
-                        break;
-                    case 2:
-                        Score_Counter.YourScore += 50;
-                        break;
-                    case 3:
-                        Score_Counter.YourScore += 80;
-                        break;
-                    default:
-                        Score_Counter.YourScore += 120;
-						break;
-                }
                 FindObjectOfType<Generator>().generate();
             }
                     

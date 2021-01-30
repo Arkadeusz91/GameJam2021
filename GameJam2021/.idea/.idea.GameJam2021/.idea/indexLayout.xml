@@ -17,9 +17,12 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
-      <Path>Library</Path>
+      <Path>GameJam2021</Path>
       <Path>Logs</Path>
+      <Path>Temp</Path>
+      <Path>UnityPlayerStub</Path>
       <Path>UserSettings</Path>
+      <Path>build</Path>
       <Path>obj</Path>
     </explicitExcludes>
   </component>
