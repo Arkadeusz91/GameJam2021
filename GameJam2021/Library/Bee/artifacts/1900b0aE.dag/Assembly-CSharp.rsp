@@ -321,6 +321,7 @@
 "Assets/Scripts/Generator.cs"
 "Assets/Scripts/Menu_Script.cs"
 "Assets/Scripts/PlayerControl.cs"
+"Assets/Scripts/Score_Counter.cs"
 -langversion:8.0
 
 /deterministic

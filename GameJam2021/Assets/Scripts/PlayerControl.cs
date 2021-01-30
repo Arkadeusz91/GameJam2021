@@ -46,6 +46,7 @@ public class PlayerControl : MonoBehaviour
         if (Time.time - ItIsTime > TimeToFall)
         {
             transform.position += new Vector3(0, -2, 0);
+            Score_Counter.YourScore += 10;
             ItIsTime = Time.time;
             if (!StopThisMove())
                     transform.position += new Vector3(0, 2, 0);
