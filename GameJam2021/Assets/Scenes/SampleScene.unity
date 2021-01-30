@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 831971506}
   m_Layer: 5
   m_Name: Score_Text
-  m_TagString: Untagged
+  m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 1414324431}
   m_Layer: 5
   m_Name: Level_Text
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -869,6 +869,9 @@ MonoBehaviour:
   - {fileID: 8608647468682226807, guid: 02e4a6122bc15564ca4cb14602917dd0, type: 3}
   isNothingControlled: 1
   nextTetrimino: {fileID: 0}
+  disabledObjectId: 0
+  disabledObject: {fileID: 0}
+  lastLevel: 1
 --- !u!4 &2099099172
 Transform:
   m_ObjectHideFlags: 0

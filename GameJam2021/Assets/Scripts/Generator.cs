@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Object = System.Object;
 using Random = UnityEngine.Random;
+using UnityEngine.UI;
 
 public class Generator : MonoBehaviour
 {
@@ -40,6 +41,7 @@ public class Generator : MonoBehaviour
             disabledObjectId = Random.Range(0, tetriminoArray.Length - 1);
             disabledObject = Instantiate(tetriminoArray[disabledObjectId]);
             disabledObject.transform.position += new Vector3(0, -20, 0);
+            disableInterface();
         }
         if (isNothingControlled)
         {
@@ -64,5 +66,26 @@ public class Generator : MonoBehaviour
         random = Random.Range(0, tetriminoArray.Length - 1);
         nextTetrimino = Instantiate(tetriminoArray[random]);
         isNothingControlled = false;
+    }
+
+    public void disableInterface()
+    {
+        GameObject.Find("/Canvas/Score_Text").GetComponent<Text>().enabled=true;
+        GameObject.Find("/Canvas/Level_Text").GetComponent<Text>().enabled=true;
+        if (Level_Script.YourLevel >= 30)
+        {
+            int random = Random.Range(1, 2);
+			switch (random)
+        	{
+          	  case 1:
+          	      GameObject.Find("/Canvas/Score_Text").GetComponent<Text>().enabled = false;
+          	      break;
+          	  case 2:
+         	       GameObject.Find("/Canvas/Level_Text").GetComponent<Text>().enabled = false;
+         	       break;
+       		}
+        }
+
+        
     }
 }
