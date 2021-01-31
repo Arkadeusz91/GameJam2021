@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 8910623453064370978}
   m_Layer: 0
   m_Name: TetriminoI
-  m_TagString: Tetrimino
+  m_TagString: TetriminoI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -21,6 +21,8 @@ public class Generator : MonoBehaviour
     public GameObject disabledObject = null;
 
     public int lastLevel = 1;
+    
+    int invisibleId = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +37,15 @@ public class Generator : MonoBehaviour
     {
         int random = Random.Range(1, 10);
         int currentLevel = Level_Script.YourLevel;
+        if (currentLevel>=30)
+        {
+            if (currentLevel>lastLevel)
+            {
+                ReappearBlocks(invisibleId);
+                invisibleId = Random.Range(1, 8);
+            }
+            InvisibleBlock(invisibleId);
+        }
         if (currentLevel > lastLevel)
         {
             lastLevel = currentLevel;
@@ -49,6 +60,8 @@ public class Generator : MonoBehaviour
             generate();
         }
     }
+
+    
 
     public void generate()
     {
@@ -138,8 +151,80 @@ public class Generator : MonoBehaviour
                   break;
             }
         }
+    }
 
-        
+    public void InvisibleBlock(int id)
+    {
+        String name;
+        switch (id)
+        {
+            case 1:
+                name = "TetriminoI";
+                break;
+            case 2:
+                name = "TetriminoJ";
+                break;
+            case 3:
+                name = "TetriminoL";
+                break;
+            case 4:
+                name = "TetriminoO";
+                break;
+            case 5:
+                name = "TetriminoS";
+                break;
+            case 6:
+                name = "TetriminoZ";
+                break;
+            default:
+                name = "TetriminoT";
+                break;
+        }
+
+        foreach (GameObject block in GameObject.FindGameObjectsWithTag(name))
+        {
+            foreach (MeshRenderer renderer in block.GetComponentsInChildren<MeshRenderer>())
+            {
+                renderer.enabled = false;
+            }
+        }
+    }
+    
+    public void ReappearBlocks(int id)
+    {
+        String name;
+        switch (id)
+        {
+            case 1:
+                name = "TetriminoI";
+                break;
+            case 2:
+                name = "TetriminoJ";
+                break;
+            case 3:
+                name = "TetriminoL";
+                break;
+            case 4:
+                name = "TetriminoO";
+                break;
+            case 5:
+                name = "TetriminoS";
+                break;
+            case 6:
+                name = "TetriminoZ";
+                break;
+            default:
+                name = "TetriminoT";
+                break;
+        }
+
+        foreach (GameObject block in GameObject.FindGameObjectsWithTag(name))
+        {
+            foreach (MeshRenderer renderer in block.GetComponentsInChildren<MeshRenderer>())
+            {
+                renderer.enabled = true;
+            }
+        }
     }
     
 }

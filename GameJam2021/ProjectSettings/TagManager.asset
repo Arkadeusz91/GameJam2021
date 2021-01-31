@@ -7,6 +7,13 @@ TagManager:
   - Tetrimino
   - Score
   - Level
+  - TetriminoI
+  - TetriminoJ
+  - TetriminoL
+  - TetriminoO
+  - TetriminoS
+  - TetriminoT
+  - TetriminoZ
   layers:
   - Default
   - TransparentFX
