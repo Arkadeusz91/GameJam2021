@@ -98,7 +98,7 @@ public class Generator : MonoBehaviour
         GameObject.Find("Frame01").GetComponent<MeshRenderer>().enabled = true;
         GameObject.Find("Frame02").GetComponent<MeshRenderer>().enabled = true;
         GameObject.Find("Stage").GetComponent<MeshRenderer>().enabled = true;
-        if (Level_Script.YourLevel >= 1)
+        if (Level_Script.YourLevel >= 10)
         {
             switch (id)
         	{
