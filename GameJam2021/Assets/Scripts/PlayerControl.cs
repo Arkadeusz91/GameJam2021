@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour
     //zmienna potrzebna do odliczania czasu opadniecia klocka
     private float ItIsTime;
     //czas z jakim b�dzie opada� klocek
-    public float TimeToFall = 0.91f - ((float)Level_Script.YourLevel * 0.04f);
+    public float TimeToFall = 0.91f - ((float)Level_Script.YourLevel * 0.06f);
     //
 
     public static int StageWidth = 20;

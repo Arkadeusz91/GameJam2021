@@ -27,7 +27,7 @@ public class Generator : MonoBehaviour
     {
         disabledObjectId = Random.Range(0, tetriminoArray.Length);
         disabledObject = Instantiate(tetriminoArray[disabledObjectId]);
-        disabledObject.transform.position += new Vector3(0, -20, 0);
+        disabledObject.transform.position += new Vector3(18, 0, 0);
     }
 
     // Update is called once per frame
@@ -41,7 +41,7 @@ public class Generator : MonoBehaviour
             Destroy(disabledObject);
             disabledObjectId = Random.Range(0, tetriminoArray.Length);
             disabledObject = Instantiate(tetriminoArray[disabledObjectId]);
-            disabledObject.transform.position += new Vector3(0, -20, 0);
+            disabledObject.transform.position += new Vector3(18, 0, 0);
             disableInterface(random);
         }
         if (isNothingControlled)

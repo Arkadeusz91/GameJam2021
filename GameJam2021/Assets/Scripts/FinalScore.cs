@@ -14,7 +14,7 @@ public class FinalScore : MonoBehaviour
     {
         finalScoreText = GetComponent<Text>();
         YourFinalScore = Score_Counter.YourScore;
-        finalScoreText.text = "Your Final Score: \n" + YourFinalScore;
+        finalScoreText.text = "Your Final Score:\n" + YourFinalScore;
     }
 
     // Update is called once per frame
