@@ -33,7 +33,7 @@ public class Generator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int random = Random.Range(1, 4);
+        int random = Random.Range(1, 10);
         int currentLevel = Level_Script.YourLevel;
         if (currentLevel > lastLevel)
         {
@@ -89,7 +89,16 @@ public class Generator : MonoBehaviour
     {
         GameObject.Find("/Canvas/Score_Text").GetComponent<Text>().enabled=true;
         GameObject.Find("/Canvas/Level_Text").GetComponent<Text>().enabled=true;
-        if (Level_Script.YourLevel >= 30)
+        GameObject.Find("/Canvas/Lost_Tetrimino_Text").GetComponent<Text>().enabled = true;
+        GameObject.Find("/Canvas/Next_Tetrimino_Text").GetComponent<Text>().enabled = true;
+        foreach (MeshRenderer renderer in disabledObject.GetComponentsInChildren<MeshRenderer>())
+        {
+            renderer.enabled = true;
+        }
+        GameObject.Find("Frame01").GetComponent<MeshRenderer>().enabled = true;
+        GameObject.Find("Frame02").GetComponent<MeshRenderer>().enabled = true;
+        GameObject.Find("Stage").GetComponent<MeshRenderer>().enabled = true;
+        if (Level_Script.YourLevel >= 1)
         {
             switch (id)
         	{
@@ -110,6 +119,22 @@ public class Generator : MonoBehaviour
                   {
                       renderer.enabled = false;
                   }
+                  break;
+              case 5:
+                  GameObject.Find("/Canvas/Lost_Tetrimino_Text").GetComponent<Text>().enabled = false;
+                  break;
+              case 6:
+                  GameObject.Find("/Canvas/Next_Tetrimino_Text").GetComponent<Text>().enabled = false;
+                  break;
+              case 7:
+                  GameObject.Find("Frame01").GetComponent<MeshRenderer>().enabled = false;
+                  break;
+              case 8:
+                  GameObject.Find("Frame02").GetComponent<MeshRenderer>().enabled = false;
+                  break;
+              case 9:
+              case 10:
+                  GameObject.Find("Stage").GetComponent<MeshRenderer>().enabled = false;
                   break;
             }
         }
