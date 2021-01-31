@@ -311,6 +311,7 @@ GameObject:
   - component: {fileID: 963525565}
   - component: {fileID: 963525568}
   - component: {fileID: 963525567}
+  - component: {fileID: 963525566}
   m_Layer: 5
   m_Name: Final Score
   m_TagString: Level
@@ -337,6 +338,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -175.05017}
   m_SizeDelta: {x: 2560, y: 1089.8997}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &963525566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963525564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63558f2a56d781f40988af572be50c02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &963525567
 MonoBehaviour:
   m_ObjectHideFlags: 0
