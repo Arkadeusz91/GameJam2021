@@ -20,7 +20,7 @@ public class Generator : MonoBehaviour
 
     public GameObject disabledObject = null;
 
-    public int lastLevel = 30;
+    public int lastLevel = 1;
 
     // Start is called before the first frame update
     void Start()
